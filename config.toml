@@ -1,13 +1,13 @@
-baseurl = "http://nolleh.github.io"
+baseurl = "https://nolleh.github.io"
 languageCode = "en-us"
 title = "The Computer Programmer, Nolleh"
 theme = "hugo-multi-bootswatch"
 paginate    = 10                    # the number of posts on a pageheme = "hugo-multi-bootswatch"
+disqusShortname = "nolleh-github-io"
 
 [params]
 github      = "https://github.com/nolleh"
 linkedin    = "https://www.linkedin.com/in/경미-김-a9805a82"
-disqusShortname = "nolleh-github-io"
 
 [params.theme]
 	inverse = true
