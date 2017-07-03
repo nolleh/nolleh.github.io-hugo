@@ -1,7 +1,8 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://nolleh.github.io"
 languageCode = "en-us"
 title = "The Computer Programmer, Nolleh"
 theme = "hugo-multi-bootswatch"
+paginate    = 10                    # the number of posts on a pageheme = "hugo-multi-bootswatch"
 
 [params]
 github      = "https://github.com/nolleh"
