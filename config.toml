@@ -1,6 +1,7 @@
-baseurl = "https://nolleh.github.io"
+baseurl = "http://nolleh.github.io"
 languageCode = "en-us"
 title = "The Computer Programmer, Nolleh"
+publishdir = "public/"
 theme = "purehugo"
 Paginate    = 10                    # the number of posts on a pageheme = "hugo-multi-bootswatch"
 disqusShortname = "nolleh-github-io"
