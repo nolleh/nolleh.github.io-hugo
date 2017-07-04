@@ -6,7 +6,7 @@ Paginate    = 10                    # the number of posts on a pageheme = "hugo-
 disqusShortname = "nolleh-github-io"
 
 [params]
-githubName      = "https://github.com/nolleh"
+githubName      = "nolleh"
 linkedinName    = "https://www.linkedin.com/in/경미-김-a9805a82"
 
 ## hugo-multi-bootswatch
