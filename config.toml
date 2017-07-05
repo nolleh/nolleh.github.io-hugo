@@ -1,14 +1,17 @@
-baseurl = "http://nolleh.github.io"
+baseurl = "https://nolleh.github.io"
 languageCode = "en-us"
 title = "The Computer Programmer, Nolleh"
-publishdir = "public/"
-theme = "purehugo"
-Paginate    = 10                    # the number of posts on a pageheme = "hugo-multi-bootswatch"
+#publishdir = "public/"
+theme = "code-editor"
+#Paginate    = 10                    # the number of posts on a pageheme = "hugo-multi-bootswatch"
 disqusShortname = "nolleh-github-io"
 
 [params]
-githubName      = "nolleh"
-linkedinName    = "https://www.linkedin.com/in/경미-김-a9805a82"
+    author = "nolleh"
+    locale = "en-US"
+#[params]
+#githubName      = "nolleh"
+#linkedinName    = "https://www.linkedin.com/in/경미-김-a9805a82"
 
 ## hugo-multi-bootswatch
 ##[params.theme]

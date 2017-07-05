@@ -36,7 +36,7 @@ mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar 
 ```
   
 ### Brew 를 통해 설치하기
-Formular 라고 지칭하고 있는게 맞는지는 잘 모르겠지만.  
+Formula 라고 지칭하고 있는게 맞는지는 잘 모르겠지만.  
 brew 를 통해 프로그램/binary 를 설치할 경우 다음과 같이 실행  
 
 #### 최초 설치
@@ -55,5 +55,16 @@ Brew 자체를 업데이트해서 formular 를 갱신할 필요가 있나보다.
 
 ```Bash
 $ Brew update
+```
+
+### 업데이트시 다음 에러 노출시
+```Bash
+$ Error: /usr/local must be writable!
+```
+
+다음 실행
+
+```Bash
+sudo chown -R $(whoami) /usr/local
 ```
 
