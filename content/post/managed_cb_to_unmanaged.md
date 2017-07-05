@@ -1,5 +1,5 @@
 +++
-categories = ["C++/CLI", "Programming"]
+categories = ["C++/CLI"]
 date = "2017-07-04T00:45:55+09:00"
 tags = ["C++/CLI", "Programming"]
 title = "C++/CLI 에서managed 콜백을 unmanaged 로 전달하기"

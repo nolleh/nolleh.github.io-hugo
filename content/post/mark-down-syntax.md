@@ -1,5 +1,5 @@
 +++
-Categories = ["Editor", "Programming"]
+Categories = ["개발 환경 - Environment"]
 Description = "mark down 문법"
 Tags = ["Editor", "Programming"]
 date = "2017-07-04T22:13:52+09:00"

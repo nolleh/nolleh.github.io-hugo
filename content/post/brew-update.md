@@ -1,7 +1,7 @@
 +++
-Categories = ["DevEnv", "MacOS"]
+Categories = ["개발 환경 - Environment"]
 Description = "개발 환경 - Brew"
-Tags = []
+Tags = ["MacOS"]
 date = "2017-07-04T22:31:23+09:00"
 title = "Brew Install 이 구버전만 설치할 때"
 +++
