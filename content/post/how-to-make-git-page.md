@@ -21,11 +21,11 @@ git 을 사용해 본 적이 있다면 간단하다.
 그렇다면 다음 절로 넘어가고, 그렇지 않다면, 다음을 따라하자.   
 
 ## github 가입
-이 항목에 있어 더 이상의 자세한 설명은 생략한다.
+이 항목에 있어 더 이상의 자세한 설명은 생략한다.  
 [github](https://github.com)
 
 ## sshKey
-여기를 따라하자.
+여기를 따라하자.  
 [github-gen-sshkey](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 
 ## github repo 생성
@@ -43,8 +43,7 @@ git 을 사용해 본 적이 있다면 간단하다.
 ## 내 Repo 를 GithubPage 로 지정하기  
 본 repo 에서 <ID>.github.com 의 index.html 을 찾도록 github 에 알려주자.  
 
-![세팅](./images/github-setting.png =100x)
-
+<img src="./images/github-setting.png" width="200" height="100"/>  
 
 # MarkDown-To-HTML
 잘은 모르겠지만.. github 페이지에서는 유독 MarkDown 을 통해  
