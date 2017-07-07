@@ -43,7 +43,7 @@ git 을 사용해 본 적이 있다면 간단하다.
 ## 내 Repo 를 GithubPage 로 지정하기  
 본 repo 에서 <ID>.github.com 의 index.html 을 찾도록 github 에 알려주자.  
 
-<img src="./images/github-setting.png" width="200" height="100"/>  
+<img src="./images/github-setting.png" width="664" height="220"/>  
 
 # MarkDown-To-HTML
 잘은 모르겠지만.. github 페이지에서는 유독 MarkDown 을 통해  
