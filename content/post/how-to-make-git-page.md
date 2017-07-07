@@ -1,9 +1,10 @@
----
-Categories: ["개발환경"]
-title: "How To Make Git Page"
-date: 2017-07-07T21:22:50+09:00
-Tags: ["GitHub-Page", "Editor"]
----
++++
+Categories = ["개발환경"]
+Description = "Making Git Page"
+title = "How To Make Git Page"
+date =  "2017-07-07T21:22:50+09:00"
+Tags = ["GitHub-Page", "Editor"]
++++
 
 # GitHub-Page
 이런게 있다더라 ~ 라고 주변으로부터 처음 들은건 1~2년전이었던것 같은데  
@@ -42,7 +43,7 @@ git 을 사용해 본 적이 있다면 간단하다.
 ## 내 Repo 를 GithubPage 로 지정하기  
 본 repo 에서 <ID>.github.com 의 index.html 을 찾도록 github 에 알려주자.  
 
-![세팅](./images/github-setting.png =100x20)
+![세팅](./images/github-setting.png =100x)
 
 
 # MarkDown-To-HTML
