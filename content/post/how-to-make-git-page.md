@@ -42,7 +42,7 @@ git 을 사용해 본 적이 있다면 간단하다.
 ## 내 Repo 를 GithubPage 로 지정하기  
 본 repo 에서 <ID>.github.com 의 index.html 을 찾도록 github 에 알려주자.  
 
-![세팅](./images/github-setting.png)
+![세팅](./images/github-setting.png =100x20)
 
 
 # MarkDown-To-HTML
