@@ -1,5 +1,5 @@
 +++
-Categories = ["개발 환경 - Environment"]
+Categories = ["개발환경"]
 Description = "개발 환경 - Brew"
 Tags = ["MacOS"]
 date = "2017-07-04T22:31:23+09:00"

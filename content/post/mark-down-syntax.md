@@ -1,7 +1,7 @@
 +++
-Categories = ["개발 환경 - Environment"]
+Categories = ["개발환경"]
 Description = "mark down 문법"
-Tags = ["Editor", "Programming"]
+Tags = ["GitHub-Page", "Editor"]
 date = "2017-07-04T22:13:52+09:00"
 title = "markDown 문법"
 +++

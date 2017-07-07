@@ -1,7 +1,6 @@
 baseurl = "https://nolleh.github.io"
 languageCode = "ko-KR"
 title = "The Computer Programmer, Nolleh"
-#publishdir = "public/"
 theme = "hello-programmer"
 Paginate    = 2                    # the number of posts on a pageheme = "hugo-multi-bootswatch"
 disqusShortname = "nolleh-github-io"
@@ -9,13 +8,14 @@ disqusShortname = "nolleh-github-io"
 [params]
     author = "nolleh"
     locale = "ko-KR"
+    #githubName      = "nolleh"
+    #linkedinName    = "https://www.linkedin.com/in/경미-김-a9805a82"
 
 [author]
     name = "nolleh"
     email = "nolleh7707@gmail.com"
+
 #[params]
-#githubName      = "nolleh"
-#linkedinName    = "https://www.linkedin.com/in/경미-김-a9805a82"
 
 ## hugo-multi-bootswatch
 ##[params.theme]
