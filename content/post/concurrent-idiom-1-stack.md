@@ -2,7 +2,8 @@
 title: "Concurrent Idiom 1 - Stack"
 date: 2017-07-10T22:57:57+09:00
 Categories: ["서버개발지식"]
-Tags: ["Concurrent Programming", "Programming", "생각하는 프로그래머"]
+Tags: ["Concurrent Programming", "Programming", "생각하는 프로그래머", "Note"]
+Author: "nolleh"
 ---
 > concurrent 프로그램을 작성할 때 고려해야할 몇가지 사항. 그리고 idiom.  
 여러 서적에서 발췌하였으며, 정리 차원에서 작성한 내용이므로 본 글을 처음 접한 사람이 이해하기에 많은 내용을 담지 않을 수 있음.  

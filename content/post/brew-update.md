@@ -4,6 +4,7 @@ Description = "개발 환경 - Brew"
 Tags = ["MacOS"]
 date = "2017-07-04T22:31:23+09:00"
 title = "Brew Install 이 구버전만 설치할 때"
+Author = "nolleh"
 +++
 
 ## Let's 사족

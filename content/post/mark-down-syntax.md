@@ -4,6 +4,7 @@ Description = "mark down 문법"
 Tags = ["GitHub-Page", "Editor"]
 date = "2017-07-04T22:13:52+09:00"
 title = "markDown 문법"
+Author = "nolleh"
 +++
 
 마크다운으로 포스팅하는 Git 페이지를 생성하였으니, 자주 사용되는 대표 문법 정리  

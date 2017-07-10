@@ -4,6 +4,7 @@ Description = "Making Git Page"
 title = "How To Make Git Page"
 date =  "2017-07-07T21:22:50+09:00"
 Tags = ["GitHub-Page", "Editor"]
+Author = "nolleh"
 +++
 
 # GitHub-Page
