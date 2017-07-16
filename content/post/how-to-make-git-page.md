@@ -12,7 +12,7 @@ Author = "nolleh"
 갑자기 꽂혀서 git page 를 만들었다. (!!)  
 github 에서는 1계정당 1 호스트를 제공하는 것 같고   
 
-``` <ID>.github.com  ```
+``` <ID>.github.io  ```
   
 뭐 이런식? github 의 제공 영역은 repo 에 존재하는 index.html 을 repo 에 지정된 1 도메인과   
 연결해주는 정도인 것 같다. 
