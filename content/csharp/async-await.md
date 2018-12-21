@@ -2,7 +2,7 @@
 title: "Async Await"
 date: 2018-12-18T13:47:33+09:00
 Categories: ["csharp"]
-Tags: ["C#, Programming, async, await"]
+Tags: ["C#", "Programming", "async", "await"]
 Author: "nolleh"
 ---
 
