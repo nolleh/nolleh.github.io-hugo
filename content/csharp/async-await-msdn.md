@@ -1,5 +1,5 @@
 ---
-title: "Async Await Msdn"
+title: "Async Await 을 사용한 비동기 프로그래밍"
 date: 2018-12-21T21:41:08+09:00
 Categories: ["csharp"]
 Tags: ["C#", "Programming", "async", "await"]
@@ -17,7 +17,7 @@ Author: "nolleh"
 잠재적인 차단 작업 완료 될때까지 다른 작업을 게속 수행
 
 # 작성이 간편한 비동기 메서드  
-
+---
 반환 형식은 다음 중 하나   
 - Task<TResult>  
 - Task  
@@ -32,6 +32,7 @@ Author: "nolleh"
 
 
 # 스레드
+---
 비동기 메서드의 await 식은 대기한 작업이 실행되는 동안 현재 스레드를 차단하지 않는다. 
 대신, 메서드의 나머지를 연속으로 등록하고 비동기 메서드 호출자에 반환.
 
