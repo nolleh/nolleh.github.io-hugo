@@ -2,6 +2,7 @@ baseurl = "https://nolleh.github.io"
 languageCode = "ko-KR"
 title = "The Computer Programmer, Nolleh"
 theme = "hello-programmer"
+#theme = "Kraiklyn"
 Paginate    = 2                    # the number of posts on a page
 disqusShortname = "nolleh-github-io"
 googleAnalytics = "UA-102565363-1"
