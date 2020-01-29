@@ -1,9 +1,9 @@
 ---
-title: "Building Distributed App"
+title: 'Building Distributed App'
 date: 2019-01-23T20:32:59+09:00
-Categories: ["블록체인-개념"]
-Tags: ["EOS", "블록체인"]
-Author: "nolleh"
+Categories: ['블록체인-개념']
+Tags: ['EOS', '블록체인']
+Author: 'nolleh'
 ---
 
 > 다음에서 발췌 ()[]
@@ -40,13 +40,17 @@ signature 가 있고, 이 특정한 트랜잭션의 시그니쳐를 표현한다
 
 action json 은 이런 형태
 
-`actions : [{ "account": "eosio", // 액션을 실행하는 계정의 이름 (스마트 컨트랙트가 올라가있는 계정. 어떻게 action 을 실행할지에 대해 알고있다.) "name": "newaccount", // "authroization": [{ // 어떤 시그니쳐가 필요한지 나타낸다. "actor": "eosio", "permission": "acitve" }], "Data": "000000000ea30550 .. 000a8ed32320100" // hex 로 표현된값 }]`
+`actions : [{ "account": "eosio", "name": "newaccount","actor": "eosio", "permission": "acitve" }], "Data": "000000000ea30550 .. 000a8ed32320100" }]`
+
+> - account : 액션을 실행하는 계정의 이름 (스마트 컨트랙트가 올라가있는 계정. 어떻게 action 을 실행할지에 대해 알고있다.)
+> - name : "authroization": [{ // 어떤 시그니쳐가 필요한지 나타낸다.
+> - data : hex 로 표현된 값
 
 table 을 업데이트할때, payer 에 대해 0 를 전달하면 이전 payer 를 그대로 사용한다.
 
 unittest - test_api -> tests directories . - api_tests.cpp
 
-``cpp
+```cpp
 #include <boost/test/unit_test.hpp>
 #inclue <eosio.token/eosio.token.wast.hpp>
 abi.hpp>
@@ -59,7 +63,7 @@ set_abi(N(eosio.token), eosio_token_abi);
 push_action(N(eosio.token), N(create), N(eosio.toekn), mvo() ("issuer", "eosio.token"))
 }
 
-``
+```
 
 load balcancing 을 담당하는 릴레이노드 /
 producer node 가 별개로 있다
