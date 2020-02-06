@@ -2,7 +2,7 @@
 title: 'Clustering Guide'
 date: 2020-02-05T18:44:37+09:00
 Categories: ['RabbitMQ']
-Tags: ['MQ']
+Tags: ['MQ', 'RabbitMQ']
 Author: 'nolleh'
 ---
 
@@ -65,7 +65,7 @@ consensus 를 요구하는 플러그인들이 있으므로, 홀수개의 노드 
 
 `rabbitmq-diagnostics` 와 `rabbitmqctl` 과 같은 CLI 툴의 경우 클러스터 단위의 리소스를 관찰하는 명령어들을 제공한다.
 
-어떤 커맨드들은 하나의 노드에 집중하기도 한다.
+어떤 커맨드들은 하나의 노드에 집중하기도 한다.0
 
 (e.g. `rabbitmq-diagnostics environment` and `rabbitmq-diagnostics status`)
 
@@ -88,4 +88,4 @@ rabbitmq 클러스터링은 네트워크 파티션을 다루기 위한 (주로 �
 대부분 디스크 노드를 사용하는 것을 원할 것이다. 램 노드는 큐, exchange, bind 가 많을때 성능 개선을 원하는 경우에 사용할 것이다. 램노드를 사용한다고 해서 메시지 비율이 개선 되진 않는다.
 
 램노드는 내부 데이터베이스테이블을 사용하기 때문에 peer 노드가 구동되는 경우 sync 해 줘야한다.
-이는 하나의 디스크노드는 필요하다는 것.
+이는 하나의 디스크 노드는 필요하다는 것.
