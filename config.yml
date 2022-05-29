@@ -1,0 +1,21 @@
+baseURL: "https://nolleh.github.io/"
+languageCode: "ko-KR"
+title: "The Computer Programmer, Nolleh"
+paginate: 5
+theme: "PaperMod"
+disqusShortname: "nolleh-github-io"
+googleAnalytics: "UA-102565363-1"
+
+params:
+  author: "nolleh"
+  defaultTheme: "auto"
+menu:
+  main: 
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20

@@ -1,0 +1,6 @@
+[submodule "hugo-hello-programmer-theme"]
+	path = hugo-hello-programmer-theme
+	url = git@github.com:lubang/hugo-hello-programmer-theme
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = git@github.com:adityatelange/hugo-PaperMod
