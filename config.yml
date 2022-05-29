@@ -25,14 +25,10 @@ menu:
       name: Categories
       url: /categories/
       weight: 10
-    - indentifier: search
-      name: Search
-      url: /search/
-      weight: 20
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 30
+      weight: 20
 outputs:
   home:
     - HTML
