@@ -9,13 +9,32 @@ googleAnalytics: "UA-102565363-1"
 params:
   author: "nolleh"
   defaultTheme: "auto"
+  ShowBreadCrumbs: true
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+  showtoc: true
+keys: ["title", "permalink", "summary", "content"]
 menu:
   main: 
     - identifier: categories
-      name: categories
+      name: Categories
       url: /categories/
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
+    - indentifier: search
+      name: Search
+      url: /search/
       weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
