@@ -10,6 +10,7 @@ params:
   author: "nolleh"
   defaultTheme: "auto"
   ShowBreadCrumbs: true
+  comments: true
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
