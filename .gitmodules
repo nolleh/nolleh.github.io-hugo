@@ -1,9 +1,9 @@
 [submodule "hugo-hello-programmer-theme"]
 	path = hugo-hello-programmer-theme
 	url = git@github.com:lubang/hugo-hello-programmer-theme
-[submodule "themes/PaperMod"]
-	path = themes/PaperMod
-	url = git@github.com:adityatelange/hugo-PaperMod
 [submodule "public"]
 	path = public
 	url = git@github.com:nolleh/nolleh.github.io
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = git@github.com:nolleh/hugo-PaperMod

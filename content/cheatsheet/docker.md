@@ -1,14 +1,14 @@
 ---
-title: 'Docker'
+title: "Docker"
 date: 2020-02-06T10:53:37+09:00
-Categories: ['Cheatsheet']
-Tags: ['Docker', 'Cheatsheet']
-Author: 'nolleh'
+Categories: ["Cheatsheet"]
+Tags: ["Docker", "Cheatsheet"]
+Author: "nolleh"
 ---
 
 ## Docker Cheat Sheet
 
-### 1. docker conntianer 내부 소켓 상태 확인
+### 1. docker conntainer 내부 소켓 상태 확인
 
 [](https://aidanbae.github.io/code/docker/docker-netstat/)
 
