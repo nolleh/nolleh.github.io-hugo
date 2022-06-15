@@ -26,7 +26,7 @@ menu:
       name: Categories
       url: /categories/
       weight: 10
-    - indentifier: search
+    - identifier: search
       name: Search
       url: /search/
       weight: 20
