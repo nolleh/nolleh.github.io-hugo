@@ -12,7 +12,7 @@ Author = "nolleh"
 갑자기 꽂혀서 git page 를 만들었다. (!!)  
 github 에서는 1계정당 1 호스트를 제공하는 것 같고   
 
-``` <ID>.github.io  ```
+`` <ID>.github.io  ``
   
 뭐 이런식? github 의 제공 영역은 repo 에 존재하는 index.html 을 repo 에 지정된 1 도메인과   
 연결해주는 정도인 것 같다. 
@@ -113,13 +113,31 @@ disqusShortname = "your-disqus-short-name"
 위에서 기술한 config.toml 의 theme 항목을 지정하는 것으로 테마를 변경 할 수 있다. 
 
 ### Hugo - Generate
-앞서 기술한 hugo - onestep 의 마지막 라인의 hugo server 라인을 통해 html 파일을 생성, http://localhost:1313 에서 확인할 수 있지만 이 html 들을 repo 에 올리면 css 파일을 찾지 못해  원하는 대로 페이지가 렌더링 되지 않는다.  
-css 파일을 서버에서 찾을 수 있도록  
-hugo server 실행시 추가 파라메터를 제공, 로컬이 아니라 배포용의 html 을 생성할 수 있도록 하자.
-- 이것때문에 얼마나 삽질을 했던지!  
+휴고 명령어를 통해 html 파일을 generate 한다.
+기본적으로 public 폴더에 데이터가 생성되므로, 해당 repo 를 submodule 로 github page 에 연결해두어도 괜찮다.
+즉, 이런 느낌 
 
+```
+---- hugo contents repo (git@github.com:nolleh/nolleh.github.io-hugo)
+   |
+   |----- content
+   |          |---- my-posts...
+   |
+   |----- @public (git@github.com:nolleh/nolleh.github.io)
+```
+
+실행은 다음과 같은 휴고 명령어를 사용한다. 
+
+@DEPRECATED
 ```Bash
 $ sudo hugo server --baseUrl=https://nolleh.github.io --destination=public/ --port=80 --appendPort=false
+```
+
+> edited. 휴고 특정버전(?)부터,  다음과 같이 generate 하도록 변경되었다.   
+> -D 옵션은 draft (작성중) 파일의 포함 여부.
+
+```Base
+$ hugo -D
 ```
 
 ### Deploy 
