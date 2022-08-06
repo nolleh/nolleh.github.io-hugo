@@ -2,7 +2,8 @@
 title: "Functions"
 date: 2022-08-06T12:06:41+09:00
 draft: false
-tag: ["database", "RDB", "SQL"]
+Categories: ["mysql"]
+Tags: ["database", "RDB", "SQL"]
 ---
 
 # Overview
