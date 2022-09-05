@@ -2,7 +2,7 @@
 title: "Async Await 을 사용한 비동기 프로그래밍"
 date: 2018-12-21T21:41:08+09:00
 Categories: ["csharp"]
-Tags: ["C#", "Programming", "async", "await"]
+Tags: ["C#", "Programming", "async-await", "생각하는 프로그래머"]
 Author: "nolleh"
 ---
 
