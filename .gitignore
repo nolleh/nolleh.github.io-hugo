@@ -1,3 +1,4 @@
 *.sublime-workspace
 *.swp
 themes/hugo-hello-programmer-theme
+.DS_Store
