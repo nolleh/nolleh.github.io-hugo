@@ -2,7 +2,7 @@
 title: "스프링 기본 용어/정리"
 date: 2017-07-26T23:11:14+09:00
 Categories: ["Spring"]
-Tags: ["Spring", "Programming", "Note", "Web Server"]
+Tags: ["Spring", "Web Server"]
 Author: "nolleh"
 ---
 

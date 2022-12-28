@@ -1,9 +1,9 @@
 ---
 title: 'Building Distributed App'
 date: 2019-01-23T20:32:59+09:00
-Categories: ['블록체인-개념']
-Tags: ['EOS', '블록체인']
-Author: 'nolleh'
+categories: ['블록체인-개념']
+tags: ['EOSIO', 'block-chain']
+author: 'nolleh'
 ---
 
 > 다음에서 발췌 ()[]

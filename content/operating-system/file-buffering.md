@@ -1,9 +1,9 @@
 ---
 title: "파일 버퍼링"
 date: 2017-07-17T00:25:28+09:00
-Categories: ["운영체제"]
-Tags: ["Kernel", "OS", "Programming"]
-Author: "nolleh"
+categories: ["OS"]
+tags: ["Kernel"]
+author: "nolleh"
 ---
 
 > 다음에서 발췌, 번역  

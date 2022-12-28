@@ -26,17 +26,17 @@ menu:
       name: Archive
       url: /archives/
       weight: 10
-    - identifier: search
-      name: Search
-      url: /search/
-      weight: 20
     - identifier: categories
       name: Categories
       url: /categories/
-      weight: 30
+      weight: 20
     - identifier: tags
       name: Tags
       url: /tags/
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
       weight: 40
 outputs:
   home:

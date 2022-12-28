@@ -1,9 +1,9 @@
 ---
-Categories: ['C++ CLI']
 date: '2017-07-04T00:45:55+09:00'
-Tags: ['C++ CLI', 'Programming']
 title: 'C++ CLI 에서 managed 콜백을 unmanaged 로 전달하기'
-Author: 'nolleh'
+categories: ['C++ CLI']
+tags: ['C++ CLI']
+author: 'nolleh'
 ---
 
 파라미터가 없다면 DelegateToPointer 로 마샬링해서 전달하면되는데,  

@@ -1,9 +1,9 @@
 ---
 title: "Dispose"
 date: 2018-12-19T10:18:25+09:00
-Categories: ["csharp"]
-Tags: ["C#", "Programming"]
-Author: "nolleh"
+categories: ["csharp"]
+tags: ["C#"]
+author: "nolleh"
 ---
 
 # Dispose 에 대한 여러가지

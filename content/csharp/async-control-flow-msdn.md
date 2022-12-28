@@ -1,9 +1,9 @@
 ---
 title: "비동기 프로그램의 제어 흐름"
 date: 2018-12-21T22:02:13+09:00
-Categories: ["csharp"]
-Tags: ["C#", "Programming", "async", "await"]
-Author: "nolleh"
+categories: ["csharp"]
+tags: ["C#", "Programming", "async-await"]
+author: "nolleh"
 ---
 
 # 개요  

@@ -1,9 +1,9 @@
 ---
 title: "Nancy Introduction"
 date: 2018-04-24T21:43:04+09:00
-Categories: ["Nancy"]
-Tags: ["Programming", "C#"]
-Author: "nolleh"
+categories: ["Nancy"]
+tags: ["C#", "Web Server"]
+author: "nolleh"
 ---
 
 > [Nancy 에 대한 문서 번역 #1](https://github.com/NancyFx/Nancy/wiki/Introduction). By Nolleh

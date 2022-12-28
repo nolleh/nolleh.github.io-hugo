@@ -2,7 +2,7 @@
 title: "Unix 01 Intro"
 date: 2017-08-01T22:54:19+09:00
 Categories: ["Unix Network Programming"]
-Tags: ["생각하는 프로그래머", "OS", "Unix"]
+Tags: ["생각하는 프로그래머", "Unix"]
 Author: "nolleh"
 ---
 
