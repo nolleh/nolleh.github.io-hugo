@@ -1,11 +1,11 @@
-+++
-Categories = ["개발환경"]
-Description = "Making Git Page"
-title = "How To Make Git Page"
-date =  "2017-07-07T21:22:50+09:00"
-Tags = ["GitHub-Page", "Editor"]
-Author = "nolleh"
-+++
+---
+title: "How To Make Git Page"
+description: "Making Git Page"
+date: "2017-07-07T21:22:50+09:00"
+categories: ["개발환경"]
+tags: ["GitHub-Page", "Editor"]
+author: "nolleh"
+---
 
 # GitHub-Page
 이런게 있다더라 ~ 라고 주변으로부터 처음 들은건 1~2년전이었던것 같은데  

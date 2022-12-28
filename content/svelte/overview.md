@@ -1,8 +1,8 @@
 ---
 title: "Overview"
 date: 2022-10-11T23:34:14+09:00
-Categories: ["svelte"]
-Tags: ["FE"] 
+categories: ["svelte"]
+tags: ["FE"] 
 draft: false
 ---
 

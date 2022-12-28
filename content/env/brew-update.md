@@ -1,11 +1,11 @@
-+++
-Categories = ["개발환경"]
-Description = "개발 환경 - Brew"
-Tags = ["MacOS"]
-date = "2017-07-04T22:31:23+09:00"
-title = "Brew Install 이 구버전만 설치할 때"
-Author = "nolleh"
-+++
+---
+title: "Brew Install 이 구버전만 설치할 때"
+description: "개발 환경 - Brew"
+date: "2017-07-04T22:31:23+09:00"
+categories: ["개발환경"]
+tags: ["MacOS"]
+author: "nolleh"
+---
 
 ## Let's 사족
 처음 회사에 입사 했을 때 자리에는 Mac PC 만이 덩그러니 있었고, Mac 을 사용해본적 없던 꼬꼬마는 

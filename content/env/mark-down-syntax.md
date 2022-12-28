@@ -1,11 +1,11 @@
-+++
-Categories = ["개발환경"]
-Description = "mark down 문법"
-Tags = ["GitHub-Page", "Editor"]
-date = "2017-07-04T22:13:52+09:00"
-title = "markDown 문법"
-Author = "nolleh"
-+++
+---
+title: "markDown 문법"
+date: "2017-07-04T22:13:52+09:00"
+description: "mark down 문법"
+categories: ["개발환경"]
+tags: ["GitHub-Page", "Editor"]
+author: "nolleh"
+---
 
 마크다운으로 포스팅하는 Git 페이지를 생성하였으니, 자주 사용되는 대표 문법 정리  
 [마크다운 문법](https://confluence.atlassian.com/bitbucketserver/markdown-syntax-guide-776639995.html#Markdownsyntaxguide-Listinlist)

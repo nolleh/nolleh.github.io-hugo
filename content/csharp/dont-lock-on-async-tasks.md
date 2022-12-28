@@ -2,7 +2,7 @@
 title: "Dont Lock on Async Tasks"
 date: 2022-09-06T00:20:16+09:00
 categories: ["csharp"]
-tags: ["Programming", "async-await", "concurrent", "생각하는 프로그래머"]
+tags: ["async-await", "concurrent", "생각하는 프로그래머"]
 draft: false
 ---
 

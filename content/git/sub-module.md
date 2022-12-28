@@ -1,9 +1,9 @@
 ---
 title: "서브 모듈 추가하기"
 date: 2022-05-29T16:37:55+09:00
-Categories: ["git"]
-Tags: ["subversion", "tool"]
-Author: "nolleh"
+categories: ["git"]
+tags: ["version control", "tool"]
+author: "nolleh"
 draft: false
 ---
 

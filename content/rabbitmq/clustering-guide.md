@@ -1,9 +1,9 @@
 ---
 title: 'Clustering Guide'
 date: 2020-02-05T18:44:37+09:00
-Categories: ['RabbitMQ']
-Tags: ['MQ', 'RabbitMQ']
-Author: 'nolleh'
+categories: ['RabbitMQ']
+tags: ['MQ', 'RabbitMQ']
+author: 'nolleh'
 ---
 
 한개 이상의 노드들의 논리적인 그룹을 의미하며, 각각은 유저와, 가상 호스트, 큐, exchanges, bindings 을 공유한다.

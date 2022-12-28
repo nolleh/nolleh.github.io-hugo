@@ -1,7 +1,7 @@
 ---
 title: 'Building Distributed App'
 date: 2019-01-23T20:32:59+09:00
-categories: ['블록체인-개념']
+categories: ['block-chain-concept']
 tags: ['EOSIO', 'block-chain']
 author: 'nolleh'
 ---

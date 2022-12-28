@@ -2,8 +2,8 @@
 title: "Cheatsheet"
 date: 2022-08-05T16:22:31+09:00
 draft: true
-Categories: ["kubernetes"]
-Tags: ["cheatsheet", "k8s", "devops", "kubernetes"]
+categories: ["kubernetes"]
+tags: ["cheatsheet", "k8s", "devops", "kubernetes"]
 ---
 
 ## CronJobs
