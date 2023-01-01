@@ -1,9 +1,9 @@
 ---
 title: 'Network'
 date: 2020-02-06T11:56:11+09:00
-Categories: ['Cheatsheet']
-Tags: ['Cheatsheet', 'network']
-Author: 'nolleh'
+categories: ['Cheatsheet']
+tags: ['Cheatsheet', 'network']
+author: 'nolleh'
 ---
 
 - time_wait 종료 시간 확인 : ndd -get /dev/tcp tcp_time_wait_interval
