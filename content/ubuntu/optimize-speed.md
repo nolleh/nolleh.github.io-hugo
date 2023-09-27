@@ -1,8 +1,9 @@
 ---
 title: "Optimize Speed"
 date: 2023-09-09T15:36:52+09:00
-draft: true
+draft: false
 category: ubuntu
+tags: [linux', 'ubuntu', 'raspberry pi']
 ---
 
 라즈베리파이에서 우분투를 설치해서 사용하고 있는데, 
@@ -43,6 +44,22 @@ PRIORITY=100
 
 ##3. use GOOGLE DNS server 
 
-setting -> DNS : 8.8.4.4, 8.8.8.8
+ISP 제공자들의 DNS 서버가 느리기때문에, 
+구글의 DNS 를 사용하도록 설정
 
+setting -> DNS : 
+IPv4: 8.8.4.4, 8.8.8.8
+IPv6 DNS : 2001:4860:4860::8888, 2001:4860:4860::8844
 
+##4. Nala mirror
+
+```
+sudo apt install nala
+sudo nala fetch
+```
+
+여기까지 설정을 하고 나니 200Mbps 정도 나오고,
+크롬탭 몇개 켜놔도 (4개) + tmux + alacritty 돌리는데 무리없는 수준이 됨. cpu 항상 100% 치고 있었는데  
+60~70% 정도 수준.
+
+cf. https://teejeetech.com/2022/06/04/tweaks-for-ubuntu-22-04-on-raspberry-pi-4/
