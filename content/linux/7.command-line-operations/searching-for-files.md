@@ -1,7 +1,9 @@
 ---
 title: "Searching For Files"
 date: 2023-10-02T19:56:54+09:00
-draft: true
+draft: false
+categories: ["edx-linux"]
+tags: ["edx", "Linux", "Kernel"]
 ---
 
 A special shorthand notation can send anything written to file descriptor 2 (stderr) to the same place as file descriptor 1 (stdout): 2>&1.

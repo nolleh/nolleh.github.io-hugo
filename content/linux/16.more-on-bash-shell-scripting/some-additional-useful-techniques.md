@@ -2,6 +2,8 @@
 title: "Some Additional Useful Techniques"
 date: 2024-01-04T21:38:12+09:00
 draft: false
+categories: ["edx-linux"]
+tags: ["edx", "Linux", "Kernel"]
 ---
 
 $RANDOM: environment variable for 
