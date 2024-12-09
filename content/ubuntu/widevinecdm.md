@@ -2,6 +2,8 @@
 title: "struggles to view OTT on UBUNTU X raspberry Pi 5 - A.K.A using Widevinecdm"
 date: 2024-02-25T16:59:57+09:00
 draft: true
+categories: ['raspberry pi']
+tags: ['linux', 'ubuntu', 'raspberry pi']
 ---
 
 라즈베리파이5 * Ubuntu 에서DRM 스트리밍서비스 (OTT) 를 이용하려고 여러 글들을 살펴봄. 
