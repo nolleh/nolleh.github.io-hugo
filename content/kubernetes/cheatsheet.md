@@ -13,4 +13,3 @@ tags: ["cheatsheet", "k8s", "devops", "kubernetes"]
 ```
 kubectl create job -n {namespace} --from=cronjob/{name} {job-name}
 ```
-

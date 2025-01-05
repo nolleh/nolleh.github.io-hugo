@@ -6,15 +6,18 @@ tags: ["C#", "async-await"]
 author: "nolleh"
 ---
 
-# 개요  
+# 개요
+
 ---
+
 > 다음에서 발췌  
 > [비동기 프로그램의 제어 흐름](https://docs.microsoft.com/ko-kr/dotnet/csharp/programming-guide/concepts/async/control-flow-in-async-programs)
 
-
 # 코드
+
 ---
-```csharp  
+
+```csharp
 public partial class MainWindow : Window
 {
     // . . .
@@ -48,5 +51,3 @@ public partial class MainWindow : Window
 ```
 
 Three 에서 yield 되어 Four.
-
-

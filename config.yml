@@ -23,7 +23,7 @@ params:
   showtoc: true
 keys: ["title", "permalink", "summary", "content"]
 menu:
-  main: 
+  main:
     - identifier: archive
       name: Archive
       url: /archives/

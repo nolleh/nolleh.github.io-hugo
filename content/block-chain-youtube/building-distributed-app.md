@@ -1,9 +1,9 @@
 ---
-title: 'Building Distributed App'
+title: "Building Distributed App"
 date: 2019-01-23T20:32:59+09:00
-categories: ['block-chain-concept']
-tags: ['EOSIO', 'block-chain']
-author: 'nolleh'
+categories: ["block-chain-concept"]
+tags: ["EOSIO", "block-chain"]
+author: "nolleh"
 ---
 
 > 다음에서 발췌 ()[]

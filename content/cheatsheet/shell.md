@@ -2,9 +2,9 @@
 title: "Shell"
 date: 2023-01-01T10:44:05+09:00
 draft: false
-categories: ['Cheatsheet']
-tags: ['Cheatsheet', 'unix', 'Linux']
-author: 'nolleh'
+categories: ["Cheatsheet"]
+tags: ["Cheatsheet", "unix", "Linux"]
+author: "nolleh"
 ---
 
 # Cheatsheet - Shell
@@ -13,14 +13,14 @@ author: 'nolleh'
 
 ## Primitives
 
-
 ### if statement
-```zsh 
+
+```zsh
 if [ 10 -gt 20 ]; then echo 'gt'; else echo 'lt'; fi;
 ```
 
 | operator | desc                       |
-| -        | -                          |
+| -------- | -------------------------- |
 | !        | not true                   |
 | -n       | 문자열의 길이가 0보다 크다 |
 | -z       | 문자열의 길이가 0이다      |
@@ -33,7 +33,7 @@ if [ 10 -gt 20 ]; then echo 'gt'; else echo 'lt'; fi;
 
 ### for statement
 
-```zsh 
+```zsh
 for file in *.sh; do echo $file; done
 ```
 
@@ -49,10 +49,10 @@ this is nolleh
 EOF
 ```
 
-표준입력으로부터 파일을 생성하는 구문이다. 
-이렇게도 사용할 수 있지만, 
-쉘스크립트를 사용할때 아래와 같은 구문을 작성함으로써 
-복수의 라인을 변수로 선언하는 형태로도 사용가능하다. 
+표준입력으로부터 파일을 생성하는 구문이다.
+이렇게도 사용할 수 있지만,
+쉘스크립트를 사용할때 아래와 같은 구문을 작성함으로써
+복수의 라인을 변수로 선언하는 형태로도 사용가능하다.
 
 ```zsh
 sql=$(cat <<EOF
@@ -62,17 +62,18 @@ EOF
 )
 ```
 
-
 ## Futher
+
 ### strip string
 
 let's say you want to strip 'sh'
 
-```zsh 
+```zsh
 echo ${a/.sh}
 ```
 
 궁금해서 이렇게도 돌려봄.
+
 ```zsh
 test=aaabbb
 echo ${test/a}
@@ -81,7 +82,7 @@ echo ${test/a}
 결과는 `aabbb`
 recursive 하게 제거하지 않고, first occurrence 를 제거
 
-curly brace 내부가 평가되어 rvalue 에 evaluation 될 수 있도록 감싸주는것을 잊지 말자. 
+curly brace 내부가 평가되어 rvalue 에 evaluation 될 수 있도록 감싸주는것을 잊지 말자.
 
 ### list all files in directories
 
@@ -101,4 +102,3 @@ ls ./* 평가 결과와 ls *의 차이로 봐도 무관할듯.
 어떤 폴더의 결과를 출력할때 상대경로의 유무가 그 결과에도 함께 반영이 된다.
 
 만약 순수하게 파일명만 가져오고 싶다면 후자를 사용해야할 것.
-

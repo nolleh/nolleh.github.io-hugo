@@ -20,8 +20,8 @@ $ command1 | command2 | command3
 
 The above represents what we often call a pipeline, and allows Linux to combine the actions of several commands into one. This is extraordinarily efficient because command2 and command3 do not have to wait for the previous pipeline commands to complete before they can begin processing at the data in their input streams
 
-## find .. 
+## find ..
 
-$ find -name "*.swp" -exec rm {} ’;’
+$ find -name "\*.swp" -exec rm {} ’;’
 
 {} is placeholder the file name will fill

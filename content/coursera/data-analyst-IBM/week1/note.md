@@ -13,4 +13,3 @@ draft: true
 # build your skills as a data analyst
 
 # Data Analyst Expert view point
-

@@ -6,7 +6,7 @@ categories: ["edx-linux"]
 tags: ["edx", "Linux", "Kernel"]
 ---
 
-$RANDOM: environment variable for 
+$RANDOM: environment variable for
 
 - performing security-related tasks
 - Reinitializing storage devices
@@ -30,14 +30,12 @@ Regardless of which of these tow sources is used, the system maintains a so-call
 random numbers created from this entropy pool
 
 Linux kernel offers...
+
 - /dev/random
 - /dev/urandom
 
-which draw on the entropy pool to provide random numbers which are drawn from the estimated number of bits of noise in the entropy pool.   
+which draw on the entropy pool to provide random numbers which are drawn from the estimated number of bits of noise in the entropy pool.
 
 /dev/urandom is faster compared with /dev/random which is used where very high-quality randomness is required (such as a one-time pad or key generation)
 
-
 /dev/random is blocked and does not generate any number until additional environmental noise is gathered when the entropy pool is empty, whereas /dev/urandom reuses the internal pool to produce more pseudo-random bits
-
-
